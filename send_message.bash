@@ -1,8 +1,4 @@
 echo "message:"
 read message
-echo "id:"
-read id
-echo "token:"
-read token
-URL="https://api.telegram.org/bot$token/sendMessage?chat_id=$id&text=$message"
+URL="https://api.telegram.org/bot7807568169:AAFEHwd6wujmyeC4j8VBQl-61H-HjxU4-z8/sendMessage?chat_id=2107647599&text=$message"
 curl "$URL"
